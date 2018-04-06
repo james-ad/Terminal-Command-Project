@@ -1,0 +1,81 @@
+/* Reset page defaults */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Courier New, Courier, monospace;
+    font-size: 62.5%;
+}
+
+/* Center the heading and style it */
+h1 {
+    text-align: center;
+    font-size: 3.25rem;
+}
+
+header {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 25%;
+    min-height: 25%;
+    top: 0;
+    display: block;
+    background: white;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Style the main navigation links in the header */
+.navigation a {
+    font-size: 2.25em;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 30px;
+    margin: 10px 0;
+}
+
+/*  Style the computer image for the main heading */
+#heading-image {
+    width: 55px;
+    height: 40px;
+    position: relative;
+    top: 7px;
+}
+
+/* Style the main content area  */
+#main-content {
+    min-width: 70%;
+    width: 70%;
+    max-width: 70%;
+    min-height: 400px;
+    max-height: 600px;
+    background: rgba(189, 189, 190, 0.452);
+    margin: 0 auto;
+}
+
+/* Style the search box and the search button */
+#search-box, #search-button {
+    display: block;
+    position: relative;
+    margin: 30px auto;
+}
+
+#search-box {
+    width: 60%;
+    text-align: center;
+}
+
+#search-button {
+    width: 15%;
+}
+
+.wrapper {
+    height: 85%;
+    max-height: 85%;
+    min-height: 85%;
+    width: 90%;
+    margin: 30% auto;
+}
